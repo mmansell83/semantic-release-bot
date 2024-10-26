@@ -11,8 +11,8 @@ semantic-release:
   image: ghcr.io/mmansell83/semantic-release-bot:latest
   stage: release
   variables:
-    GIT_AUTHOR_EMAIL: release-bot@stolenleadsmen.com
-    GIT_COMMITTER_EMAIL: release-bot@stolenleadsmen.com
+    GIT_AUTHOR_EMAIL: release-bot@example.com
+    GIT_COMMITTER_EMAIL: release-bot@example.com
     GIT_DEPTH: '0'
   before_script:
     - git config --global --add safe.directory $PWD
