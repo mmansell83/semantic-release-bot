@@ -5,7 +5,7 @@ ENV SEM_REL_VER="24.2.1"
 # renovate: datasource=npm depName=conventional-changelog-conventionalcommits
 ENV CCCC_VER="8.0.0"
 # renovate: datasource=npm depName=@semantic-release/gitlab
-ENV SEM_REL_GITLAB_VER="13.2.3"
+ENV SEM_REL_GITLAB_VER="13.2.4"
 
 RUN apk update && apk upgrade && \
     apk add git && \
