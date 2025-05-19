@@ -3,7 +3,7 @@ FROM docker.io/library/node:22.15.0-alpine@sha256:ad1aedbcc1b0575074a91ac146d695
 # renovate: datasource=npm depName=semantic-release
 ENV SEM_REL_VER="24.2.3"
 # renovate: datasource=npm depName=conventional-changelog-conventionalcommits
-ENV CCCC_VER="8.0.0"
+ENV CCCC_VER="9.0.0"
 # renovate: datasource=npm depName=@semantic-release/gitlab
 ENV SEM_REL_GITLAB_VER="13.2.4"
 
