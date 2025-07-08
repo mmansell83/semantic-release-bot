@@ -1,4 +1,4 @@
-FROM docker.io/library/node:22.17.0-alpine@sha256:5340cbfc2df14331ab021555fdd9f83f072ce811488e705b0e736b11adeec4bb
+FROM docker.io/library/node:22.17.0-alpine@sha256:3d5fc849018cfc7e3d770820582857fb6c8d88eb10db7d3af699e8cf81b9e551
 
 # renovate: datasource=npm depName=semantic-release
 ENV SEM_REL_VER="24.2.5"
