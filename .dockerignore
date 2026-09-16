@@ -1,0 +1,5 @@
+# Keep CI artifacts (including the Trivy DB cache) out of the build context
+.git
+.cache
+test
+trivy-results.*
