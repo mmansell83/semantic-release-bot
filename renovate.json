@@ -21,6 +21,16 @@
   ],
   "packageRules": [
     {
+      "description": "conventional-changelog-conventionalcommits 10+ requires conventional-changelog-writer 9, but stable semantic-release still bundles writer 8 through @semantic-release/release-notes-generator and @semantic-release/commit-analyzer. Hold major updates for dashboard approval until a stable semantic-release ships writer 9.",
+      "matchPackageNames": [
+        "conventional-changelog-conventionalcommits"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "dependencyDashboardApproval": true
+    },
+    {
       "matchManagers": [
         "gitlabci-include",
         "gitlabci"
